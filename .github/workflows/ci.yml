@@ -18,4 +18,4 @@ jobs:
 #        with: # Actions parameters (action name omitted)
 #          java-version: 21
       - name: Build
-        run: ./gradlew clean build
+        run: ./gradlew check
